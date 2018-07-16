@@ -5,9 +5,22 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "acquia/blt": "^9.1.0"
+        "acquia/blt": "^9.1.0",
+        "drupal/astrology": "^1.2",
+        "drupal/commerce": "^2.7",
+        "drupal/commerce_agree_terms": "1.x-dev",
+        "drupal/commerce_autosku": "^2.0@beta",
+        "drupal/commerce_cart_advanced": "1.x-dev",
+        "drupal/commerce_paypal": "^1.0@beta",
+        "drupal/commerce_stock": "1.x-dev",
+        "drupal/google_map_field": "^1.5",
+        "drupal/inline_entity_form": "^1.0@RC",
+        "drupal/rules": "^3.0@alpha",
+        "drupal/simple_gmap": "^1.4"
     },
-    "require-dev": {},
+    "require-dev": {
+        "geerlingguy/drupal-vm": "^4.8"
+    },
     "config": {
         "sort-packages": true
     },
